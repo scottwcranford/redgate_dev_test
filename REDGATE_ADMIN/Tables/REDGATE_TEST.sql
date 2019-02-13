@@ -5,5 +5,6 @@ CREATE TABLE redgate_admin.redgate_test (
   descritption CLOB,
   insert_dttm DATE,
   update_dttm DATE,
+  testadd VARCHAR2(20 BYTE),
   CONSTRAINT redgate_test_pk PRIMARY KEY (idnum)
 );
